@@ -11,9 +11,9 @@ body{
   margin: 0;
   font-family: 'Slabo 13px', arial, serif;
 }
-img {
+/*img {
     display: block;
-    width: 100%;
+    width: 100%;*/
 }
 header p{
 text-align: center;
