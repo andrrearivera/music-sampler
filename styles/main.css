@@ -11,7 +11,10 @@ body{
   margin: 0;
   font-family: 'Slabo 13px', arial, serif;
 }
-
+img {
+    display: block;
+    width: 100%;
+}
 header p{
 text-align: center;
 margin-top:.25rem;
