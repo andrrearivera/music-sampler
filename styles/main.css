@@ -11,10 +11,14 @@ body{
   margin: 0;
   font-family: 'Slabo 13px', arial, serif;
 }
-/*img {
+
+/* inline or block??
+remove the width to allow hero image to dynamically fit on page*/
+img {
     display: block;
-    width: 100%;*/
+    /*width: 100%;*/
 }
+
 header p{
 text-align: center;
 margin-top:.25rem;
