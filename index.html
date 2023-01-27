@@ -1,15 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Måneskin Music Sampler</title>
+
+    <!-- cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Ultra&display=swap" rel="stylesheet">
+
+    <style>
+    h1 h2 {font-family: 'Ultra', serif;}
+    body {font-family: 'Raleway', sans-serif;}
+    </style>
+    <!-- css -->
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+
+
+  <body>
+  <div class="container">
+
+
+<!-- start of hero -->
+<section class="row">
+    <div class="col-md-10 mx-auto my-auto">
+      <h1 class="pt-3 text-center">Måneskin</h1>
+      <img src="images/maneskin.jpeg" class="img-fluid mx-auto d-block" alt="Image of the Italian rock band Måneskin">
+      <p class="mx-auto"> Måneskin band members, from left to right: Ethan Torchio, Victoria De Angelis, Damiano David and Thomas Raggi. Image source: Måneskin, CC BY-SA 4.0 <a href="https://commons.wikimedia.org/wiki/File:Maneskin_2018.jpg">via Wikimedia Commons</a></p>
+    </div>
+  </section>
+  <!-- end of hero -->
+
+  <!-- start of body -->
+<section class="row pt-3">
+  <div class="col-md-10 mx-auto py-3">
+    <h2> Who is Måneskin? </h2>
+    <p> Måneskin is a world-renowned Italian rock band first formed in Rome, Italy, in 2016. Their music is often classified as pop rock, hard rock, and alternative rock. Måneskin gained international recognition after winning the Eurovision Song Contest in 2021, representing Italy. Since then, Måneskin has become an internationally-acclaimed band, performing in and selling-out arenas worldwide.</p>
+    <p> Måneskin, unlike many bands, has a beautiful and diverse range of music they can play. From ballads to hard-core rock, Måneskin is able to make every song they play captivating and energetic. On stage, they have a powerful and open stage presence; they know how to draw in and interact with a crowd, no matter how big or small they may be.
+    </p>
+    <p> As a band, Måneskin encourages fans to be unapologetically themselves, regardless of what others may think. They are known for their unique and daring fashion styles, which commonly break gender and societal norms. Although a new band, Måneskin has become a world-wide sensation and an example for individuals across the globe. </p>
+
+  </div>
+</section>
+
+
+<!-- end of body -->
+
+<!-- start of music player -->
+
+<section>
+      <div class="row mx-auto">
+        <h2 class="pt-3 text-center"> Music Sampler </h4>
+
+          <p class='text-center'>Click on the album covers below to listen to some of their music.</p>
+        <div class="col-md-3 pt-2" id="loneliest">
+          <a><img src="images/the_loneliest.png" class="img-fluid imgportfolio album" id="loneliestCover" alt="Click here to listen to The Loneliest"></a>
+          <div id="loneliestMusic" class="soundTrack pt-2">
+          <audio  controls preload="auto">
+          	<source src="audio/the_loneliest.mp3" type="audio/mp3">
+          	<source src="audio/the_loneliest.ogg" type="audio/ogg">
+          </audio>
+          <p class="text-center"> The Loneliest </p>
+          </div>
+        </div>
+
+        <div class="col-md-3 pt-2" id="teatro">
+            <a><img src="images/teatro_dira_vol_1.png" class="img-fluid imgportfolio album" id="teatroCover" alt="Click here to listen to Zitti e buoni"></a>
+            <div id="teatroMusic" class="soundTrack pt-2">
+            <audio controls preload="auto">
+            	<source src="audio/zitti_e_buoni.mp3" type="audio/mp3">
+            	<source src="audio/zitti_e_buoni.ogg" type="audio/ogg">
+            </audio>
+            <p class="text-center"> Zitti e buoni </p>
+            </div>
+        </div>
+
+        <div class="col-md-3 pt-2" id="ballo">
+            <a><img src="images/il_ballo_della_vita.png" class="img-fluid imgportfolio album" id="balloCover" alt="Click here to listen to Il ballo della vita"></a>
+            <div id="balloMusic" class="soundTrack pt-2">
+            <audio controls preload="auto">
+            	<source src="audio/moriro_da_re.mp3" type="audio/mp3">
+            	<source src="audio/moriro_da_re.ogg" type="audio/ogg">
+            </audio>
+            <p class="text-center"> Il ballo della vita </p>
+            </div>
+        </div>
+
+        <div class="col-md-3 pt-2" id="chosen">
+            <a><img src="images/chosen.png" class="img-fluid imgportfolio album" id="chosenCover" alt="Click here to listen to Beggin'"></a>
+            <div id="chosenMusic" class="soundTrack pt-2">
+            <audio controls preload="auto">
+            	<source src="audio/beggin.mp3" type="audio/mp3">
+            	<source src="audio/beggin.ogg" type="audio/ogg">
+            </audio>
+            <p class="text-center"> Beggin'</p>
+            </div>
+        </div>
+
+      </div>
+
+</section>
+
+<!-- start footer -->
+<footer class="row">
+    <div class="col-md-12">
+      <p class="mx-auto text-center text-muted pt-5"> This page was created by Andrea Rivera using HTML, CSS, Bootstrap, and JavaScript. View the Github repo <a href="https://github.com/andrrearivera/music-sampler">here.</a></p>
+    </div>
+</footer>
+<!-- end footer -->
+
+
+  </div> <!-- end of div container -->
+
+    <!-- js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- js -->
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
+
+
+
+
+<!--
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- insert font styles if needed -->
+
 	<title> Måneskin </title>
-  <!-- google fonts -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Slabo+13px&family=Ultra&display=swap" rel="stylesheet">
-<!-- css -->
+
   <link rel="stylesheet" href="styles/main.css">
 </head>
 
@@ -34,8 +164,8 @@
 <p>Click on the album covers below to listen to some of their music.</p>
 <h1> Music </h1>
 </div>
-
-<!-- The Loneliest -->
+-->
+<!-- The Loneliest
 <div id="loneliest">
 <a><img id="loneliestCover" class="album" src="images/the_loneliest.png" alt="The Loneliest single"></a>
 <div id="loneliestMusic" class="soundTrack">
@@ -47,7 +177,7 @@
 </div>
 </div>
 
-<!-- Teatro d'ira Vol. 1 -->
+ Teatro d'ira Vol. 1
 <div id="teatro">
 <a><img id="teatroCover" class="album" src="images/teatro_dira_vol_1.png" alt="Teatro d'ira: vol. 1 album"></a>
 <div id="teatroMusic" class="soundTrack">
@@ -59,7 +189,7 @@
 </div>
 </div>
 
-<!-- Il ballo della vita -->
+<!-- Il ballo della vita
 <div id="ballo">
 <a><img id="balloCover" class="album" src="images/il_ballo_della_vita.png" alt="Il ballo della vita album"></a>
 <div id="balloMusic" class="soundTrack">
@@ -71,7 +201,7 @@
 </div>
 </div>
 
-<!-- Chosen -->
+<!-- Chosen
 <div id="chosen">
 <a><img id="chosenCover" class="album" src="images/chosen.png" alt="Chosen album"></a>
 <div id="chosenMusic" class="soundTrack">
@@ -92,3 +222,4 @@
 <script src="scripts/main.js"></script>
 </body>
 </html>
+-->
